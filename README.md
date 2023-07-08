@@ -80,7 +80,7 @@ Link to the sildes can be found [here](https://docs.google.com/presentation/d/1L
 
 # <a name="dependencies"></a> Dependencies
 This project uses the following packages:
-1. ROS Kinetic
+1. ROS noetic
 2. Ubuntu 16.04
 3. Packages Dependencies:
 
@@ -121,7 +121,7 @@ offical guide [here](http://emanual.robotis.com/docs/en/platform/turtlebot3/setu
 
   Install ROS turtlebot3 dependent packages:
 
-  ```sudo apt-get install ros-kinetic-joy ros-kinetic-teleop-twist-joy ros-kinetic-teleop-twist-keyboard ros-kinetic-laser-proc ros-kinetic-rgbd-launch ros-kinetic-depthimage-to-laserscan ros-kinetic-rosserial-arduino ros-kinetic-rosserial-python ros-kinetic-rosserial-server ros-kinetic-rosserial-client ros-kinetic-rosserial-msgs ros-kinetic-amcl ros-kinetic-map-server ros-kinetic-move-base ros-kinetic-urdf ros-kinetic-xacro ros-kinetic-compressed-image-transport ros-kinetic-rqt-image-view ros-kinetic-gmapping ros-kinetic-navigation ros-kinetic-interactive-markers ros-kinetic-hector-mapping```
+  ```sudo apt-get install ros-noetic-joy ros-noetic-teleop-twist-joy ros-noetic-teleop-twist-keyboard ros-noetic-laser-proc ros-noetic-rgbd-launch ros-noetic-depthimage-to-laserscan ros-noetic-rosserial-arduino ros-noetic-rosserial-python ros-noetic-rosserial-server ros-noetic-rosserial-client ros-noetic-rosserial-msgs ros-noetic-amcl ros-noetic-map-server ros-noetic-move-base ros-noetic-urdf ros-noetic-xacro ros-noetic-compressed-image-transport ros-noetic-rqt-image-view ros-noetic-gmapping ros-noetic-navigation ros-noetic-interactive-markers ros-noetic-hector-mapping```
 
   For Turtlebot3 packages follow the following steps:
   ```
@@ -147,7 +147,7 @@ Type the following in your bashrc file:
 
   Replace ```<IP>``` with your systems IP address
 ```
-source /opt/ros/kinetic/setup.bash
+source /opt/ros/noetic/setup.bash
 source ~/catkin_ws/devel/setup.bash
 export ROS_MASTER_URI=http://<IP>:11311
 export ROS_HOSTNAME=<IP>
